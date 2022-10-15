@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{/*Навігація*/
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    column-gap: 1%;
+    justify-content: space-between;
+    align-content: center;
+}
+.nav_pages{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 6%;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.nav_page_link{
+    font-size: 1.1rem;
+    color: #666666;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    padding: 0.6rem 0;
+}
+.nav_page_link:hover{
+    color: #262626;
+    transition: 0.3s;
+}
+.nav_socials{
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    column-gap: 7%;
+    align-items: center;
+    justify-content: center;
+}
+.nav_social_link{/*Кінець Навігації*/           
+    text-align: center;
+}/*Треба задати анімацію при наведенні*/
+
+.about_me_container{
+    margin: 2rem auto;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 3.75rem 58rem;
+    row-gap: 4rem;
+    grid-template-columns: 80%;
+    align-content: space-between;
+    justify-content: center;
+}
+.about_me_info{
+    display: grid;
+    grid-template-columns: 58%;
+    justify-content: start;
+    grid-template-rows: 11.25rem 24rem 10rem;
+    align-content: space-evenly;
+}
+.about_me_info h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.625rem;
+    font-weight: 700;
+    color: #42446e;
+    text-align: start;
+}
+.my_skills{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-content: space-between;
+}
+.my_skills p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #666666;
+    text-align: start;
+}
+.my_work_expirience{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3.25rem;
+    grid-auto-rows: 5.25rem;
+    align-content: space-between;
+}
+.work_info{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-content: space-between;
+}
+.my_work_position{
+    display: grid;
+    grid-template-columns: 56% 12%;
+    justify-content: space-between;
+}
+.my_work_position h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #666666;
+    text-align: start;
+}
+.work_status{
+    border-radius: 6.25rem;
+    background-color: #d7ffe0;
+    color: #018c0f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.25rem 0;
+    align-self: center;
+}
+.work_description{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+.work_description span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #666666;
+    border-bottom: 2px solid #a8a8a8;
+}
+.work_description span:nth-child(3){
+    text-align: end;
+}
+.my_education{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3.25rem;
+    grid-auto-rows: 5.25rem;
+    align-content: space-between;
+}
+.education_info{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-content: space-between;
+}
+.my_degree{
+    display: grid;
+    grid-template-columns: 76% 12%;
+    justify-content: space-between;
+}
+.my_degree h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #666666;
+    text-align: start;
+}
+.education_status{
+    border-radius: 6.25rem;
+    background-color: #d7ffe0;
+    color: #018c0f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.25rem 0;
+    align-self: center;
+}
+.education_description{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+.education_description span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #666666;
+}
+.education_description span:nth-child(2){
+    text-align: end;
+}
+/*Кінець сторінки - Про мене*/

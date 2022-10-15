@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contacts_container{
+    margin: 2rem auto;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 3.75rem 32rem 16rem;
+    row-gap: 4rem;
+    grid-template-columns: 80%;
+    align-content: space-between;
+    justify-content: center;
+}
+
+nav{/*Навігація*/
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    column-gap: 1%;
+    justify-content: space-between;
+    align-content: center;
+}
+.nav_pages{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 6%;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.nav_page_link{
+    font-size: 1.1rem;
+    color: #666666;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    padding: 0.6rem 0;
+}
+.nav_page_link:hover{
+    color: #262626;
+    transition: 0.3s;
+}
+.nav_socials{
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    column-gap: 7%;
+    align-items: center;
+    justify-content: center;
+}
+.nav_social_link{/*Кінець Навігації*/           
+    text-align: center;
+}/*Треба задати анімацію при наведенні*/
+
+.contacts_tittle{
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 15% 15%;
+    justify-content: center;
+    align-content: center;
+}
+.contacts_main_tittle{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3.625rem;
+    color: #1E0E62;
+    text-align: center;
+}
+.contacts_gradient_tittle{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3.625rem;
+    text-align: center;
+    background: -webkit-linear-gradient(left, #13B0F5, #E70FAA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer{/*Футтер - Початок*/
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr);
+}
+.footer_contact_info{
+    border-bottom: 2px solid #737373;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: 40%;
+    align-content: center;
+}
+.footer_logo{
+    grid-column: 1 / 3;
+}
+.phone_number{
+    grid-column: 6 / 8;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #42446e;
+    line-height: 3rem;
+}
+.email{
+    grid-column: 8 / 10;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #42446e;
+    line-height: 3rem;
+}
+.footer_socials{
+    grid-column: 10 / 11;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10%;
+    align-content: center;
+}
+.footer_other{
+    display: grid;
+    grid-template-columns: 54% 40%;
+    justify-content: space-between;
+    align-content: center;
+}
+.footer_pages{
+    display: grid;
+    grid-template-columns: repeat(5, 17%);
+    justify-content: space-between;
+    align-content: center;
+}
+.footer_page_link{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #42446e;
+    text-align: center;
+    text-decoration: none;
+}
+.footer_page_link:hover{
+    transition: 0.3s;
+    color: #262626;
+    text-decoration: underline;
+}
+.footer_description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #666666;
+    text-align: end;
+}
+.footer_description span:nth-child(1){
+    background: -webkit-linear-gradient(left, #13B0F5, #994ac5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer_description span:nth-child(2){
+    background: -webkit-linear-gradient(left, #b039be, #c12cb8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer_description span:nth-child(3){/*Футтер - Кінець*/
+    background: -webkit-linear-gradient(left, #cc23b4, #e610ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*Кінець головної сторінки*/
+

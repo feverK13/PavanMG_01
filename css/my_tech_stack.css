@@ -1,0 +1,100 @@
+/*Початок сторінки - Мої тех.навички*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.my_tech_stack_container{
+    margin: 2rem auto;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 3.75rem 44.5rem;
+    row-gap: 4rem;
+    grid-template-columns: 80%;
+    align-content: space-between;
+    justify-content: center;
+}
+
+nav{/*Навігація*/
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    column-gap: 1%;
+    justify-content: space-between;
+    align-content: center;
+}
+.nav_pages{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 6%;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.nav_page_link{
+    font-size: 1.1rem;
+    color: #666666;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    padding: 0.6rem 0;
+}
+.nav_page_link:hover{
+    color: #262626;
+    transition: 0.3s;
+}
+.nav_socials{
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    column-gap: 7%;
+    align-items: center;
+    justify-content: center;
+}
+.nav_social_link{/*Кінець Навігації*/           
+    text-align: center;
+}/*Треба задати анімацію при наведенні*/
+
+.tech_stack{/*Тех. навички - Початок*/
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 8% 78%;
+    justify-content: center;
+    align-content: space-evenly;
+}
+.tech_stack_tittle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.625rem;
+    font-weight: 700;
+    color: #42446e;
+    text-align: center;
+    align-self: start;
+    justify-self: start;
+}
+.tech_stack_subtittle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+    align-self: start;
+    justify-self: start;
+}
+.tech_stack_list{
+    display: grid;
+    grid-template-columns: repeat(6, 14%);
+    column-gap: 2%;
+    justify-content: space-between;
+    grid-template-rows: repeat(2, 26%);
+    row-gap: 6%;
+    align-content: center;
+}
+.tech_skill{
+    border-radius: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tech_skill:hover{/*Тех. навички - Кінець*/
+    transition: 0.3s;
+    box-shadow: 0 0 2.725rem -1.375rem rgb(29, 29, 29);
+}
+/*Кінець сторінки - Мої тех.навички*/

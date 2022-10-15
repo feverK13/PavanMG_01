@@ -299,7 +299,7 @@ footer{/*Футтер - Початок*/
 
 /*Початок сторінки про мене*/
 .about_me_container{
-    margin: 2em auto;
+    margin: 2rem auto;
     width: 100%;
     display: grid;
     grid-template-rows: 3.75rem 58rem;
@@ -434,9 +434,3 @@ footer{/*Футтер - Початок*/
     text-align: end;
 }
 /*Кінець сторінки - Про мене*/
-
-
-
-/*Початок сторінки - Мої тех.навички*/
-
-/*Кінець сторінки - Мої тех.навички*/
