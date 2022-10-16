@@ -3,12 +3,27 @@
     padding: 0;
 }
 
+.about_me_container{
+    margin: 2rem auto;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 3.75rem 58rem;
+    row-gap: 4rem;
+    grid-template-columns: 80%;
+    align-content: space-between;
+    justify-content: center;
+}
+
 nav{/*Навігація*/
     display: grid;
     grid-template-columns: 2fr 3fr 1fr;
     column-gap: 1%;
     justify-content: space-between;
     align-content: center;
+}
+.nav_logo{
+    width: 6rem;
+    height: 3.625rem;
 }
 .nav_pages{
     display: grid;
@@ -37,20 +52,14 @@ nav{/*Навігація*/
     align-items: center;
     justify-content: center;
 }
+.nav_social_pic{
+    width: 1.7675rem;
+}
 .nav_social_link{/*Кінець Навігації*/           
     text-align: center;
 }/*Треба задати анімацію при наведенні*/
 
-.about_me_container{
-    margin: 2rem auto;
-    width: 100%;
-    display: grid;
-    grid-template-rows: 3.75rem 58rem;
-    row-gap: 4rem;
-    grid-template-columns: 80%;
-    align-content: space-between;
-    justify-content: center;
-}
+
 .about_me_info{
     display: grid;
     grid-template-columns: 58%;

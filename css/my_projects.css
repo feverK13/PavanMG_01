@@ -21,6 +21,10 @@ nav{/*Навігація*/
     justify-content: space-between;
     align-content: center;
 }
+.nav_logo{
+    width: 6rem;
+    height: 3.625rem;
+}
 .nav_pages{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -47,6 +51,9 @@ nav{/*Навігація*/
     column-gap: 7%;
     align-items: center;
     justify-content: center;
+}
+.nav_social_pic{
+    width: 1.7675rem;
 }
 .nav_social_link{/*Кінець Навігації*/           
     text-align: center;
